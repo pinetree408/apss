@@ -22,6 +22,7 @@ def fanmetting(input_case):
                 counter += 1
         print counter
 
+
 if __name__ == '__main__':
     input_case = \
         '''4

@@ -12,6 +12,7 @@ switch_list = [
 ]
 INF = 9999
 
+
 def is_aligned(clock_list):
     if sum(clock_list) == len(clock_list) * 12:
         return True
@@ -34,6 +35,7 @@ def solve(clock_list, switch_id):
         ret = min([ret, i + solve(clock_list, switch_id + 1)])
         push(clock_list, switch_id)
     return ret
+
 
 def clocksync(input_case):
     input_list = list(
