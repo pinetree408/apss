@@ -1,11 +1,4 @@
 class Solver:
-    def __init__(self):
-        self.INF = 2000000000
-
-    def network_flow(self, n, m, source, sink, capa, flow):
-        total = 0
-        return total
-
     def mutate(self, board, n_to_id):
         dy = [1, 1]
         dx = [-1, 1]
